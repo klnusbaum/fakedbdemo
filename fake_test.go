@@ -23,6 +23,6 @@ func TestFake(t *testing.T) {
 		t.Fatalf("feild3 did not equal val1: %s", row["field3"])
 	}
 	if row["field4"] != "val2" {
-		t.Fatalf("feild3 did not equal val2: %s", row["field4"])
+		t.Fatalf("feild4 did not equal val2: %s", row["field4"])
 	}
 }
